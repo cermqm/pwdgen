@@ -11,25 +11,38 @@
 
     <title>Password Generator</title>
 
+    <link rel="stylesheet" href="style.css">
     <script src="myscript.js"></script>
 
 </head>
 
 <body>
 
-    <div class="card mb-3" style="max-width: 2500px;">
+    <div class="card mb-3 border border-primary" style="max-width: 2500px;">
         <div class="row no-gutters">
             <div class="col-md-6">
                 <img src="passwordgen.jpg" class="card-img" alt="Password Generator">
             </div>
             <div class="col-md-6">
                 <div class="card-body">
-                    <h5 class="card-title">Password Generator</h5>
-                    <p class="card-text">Click Generate password - select length and character types.</p>
-                    <a>New Password = <a id=newpassword></a></a>
-                    </br>
-                    </br>
-                    <button id="generate" onclick="genpwd()">Generate!</button>
+                    <h5 class="card-title, text-primary" style="text-align: center;">Password Generator</h5>
+                    <p class="card-text text-body" style="text-align: center;">Click Generate password - select length and character types.</p>
+                    <div class="container">
+                        <div class="center">
+                            <a style="text-align: center;">New Password</a>
+                        </div>
+                    </div>
+                    <div class="containerpass">
+                        <div class="centerpass">
+                            <a class="border border-dark centerpasscont" style="text-align: center;" id=newpassword></a>
+                            </br>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="center">
+                            <button class="text-primary center-block" id="generate" onclick="genpwd()" style="text-align: center;">Generate!</button>
+                        </div>
+                    </div>
                     </br>
                 </div>
             </div>
