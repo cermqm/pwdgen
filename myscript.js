@@ -46,10 +46,12 @@ function genpwd() {
         newpassword += passcharset.charAt(
             Math.floor(Math.random() * passcharset.length)
         );
-
+        console.log(newpassword);
+        console.log(length);
     }
+    document.write(newpassword);
 
     // Output new password
-    document.getElementById("newpassword").innerHTML = newpassword;
+    document.getElementById("newpassplace").innerHTML = newpassword;
 
 }

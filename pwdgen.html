@@ -17,38 +17,30 @@
 </head>
 
 <body>
+    <div class="wrapper">
+        <div class="card bg-dark text-white">
+            <img src="passwordgen3.jpg" class="card-img" alt="Password Generator" style="height: 100vh;">
+            <div class="card-img-overlay" style="text-align: center; line-height: 3;">
+                <h5 class="card-title, text-primary" style="text-align: center; color: white;">Password Generator</h5>
+                <p style="text-align: center; color: white;">Click Generate password - select length and character types.</p>
 
-    <div class="card mb-3 border border-primary" style="max-width: 2500px;">
-        <div class="row no-gutters">
-            <div class="col-md-6">
-                <img src="passwordgen.jpg" class="card-img" alt="Password Generator">
-            </div>
-            <div class="col-md-6">
-                <div class="card-body">
-                    <h5 class="card-title, text-primary" style="text-align: center;">Password Generator</h5>
-                    <p class="card-text text-body" style="text-align: center;">Click Generate password - select length and character types.</p>
-                    <div class="container">
-                        <div class="center">
-                            <a style="text-align: center;">New Password</a>
-                        </div>
-                    </div>
-                    <div class="containerpass">
-                        <div class="centerpass">
-                            <a class="border border-dark centerpasscont" style="text-align: center;" id=newpassword></a>
-                            </br>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="center">
-                            <button class="text-primary center-block" id="generate" onclick="genpwd()" style="text-align: center;">Generate!</button>
-                        </div>
-                    </div>
+                <div>
+                    <a style="text-align: center;">New Password</a>
+                </div>
+
+                <div>
+                    <a class="border border-dark" style="text-align: center; color: white;" id=newpassplace></a>
                     </br>
                 </div>
+
+                <div>
+                    <button class="text-primary center-block" id="generate" onclick="genpwd()" style="text-align: center; color: white;">Generate!</button>
+                </div>
+
             </div>
         </div>
     </div>
-
+    </br>
     <script>
     </script>
 

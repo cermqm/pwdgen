@@ -4,33 +4,40 @@
 
 .container {
     height: 50px;
-    position: relative;
 }
 
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+
+/* .center {
+    margin: 0 auto;
 }
 
 .containerpass {
-    height: 50px;
-    position: relative;
-    padding: 10px 10px 10px 10px;
+    height: 200px;
     border: 10px;
+    line-height: 3;
 }
 
 .centerpass {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
 }
 
 .centerpasscont {
     padding: 10px;
+    margin: 0 auto;
+} */
+
+.wrapper {
+    overflow: hidden;
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.body {
+    line-height: 2.5;
 }
