@@ -6,26 +6,6 @@
     height: 50px;
 }
 
-
-/* .center {
-    margin: 0 auto;
-}
-
-.containerpass {
-    height: 200px;
-    border: 10px;
-    line-height: 3;
-}
-
-.centerpass {
-    margin: 0 auto;
-}
-
-.centerpasscont {
-    padding: 10px;
-    margin: 0 auto;
-} */
-
 .wrapper {
     overflow: hidden;
     margin: auto;
@@ -39,5 +19,5 @@
 }
 
 .body {
-    line-height: 2.5;
+    line-height: 5;
 }

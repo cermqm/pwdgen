@@ -6,7 +6,8 @@ function genpwd() {
     var lc = "abcdefghijklmnopqrstuvwxyz";
     var uc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var num = "0123456789";
-    var sc = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
+    // var sc = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
+    var sc = "!@#$%^&*()_+~`|}{[]:;?,./-=";
     // define char set possibilities 
 
     // Prompt for length and confirm that the length is between 8 and 128
@@ -49,7 +50,6 @@ function genpwd() {
         console.log(newpassword);
         console.log(length);
     }
-    document.write(newpassword);
 
     // Output new password
     document.getElementById("newpassplace").innerHTML = newpassword;
