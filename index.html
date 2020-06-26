@@ -8,32 +8,41 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <!-- Title -->
     <title>Password Generator</title>
 
+    <!-- Link to include stylesheet and javascript into this page -->
     <link rel="stylesheet" href="style.css">
     <script src="myscript.js"></script>
 
 </head>
 
 <body>
+    <!-- Wrapper used for formatting -->
     <div class="wrapper">
+        <!-- Card configuration - used to help format the application... -->
         <div class="card bg-dark text-white">
+            <!-- Background image -->
             <img src="passwordgen.jpg" class="card-img" alt="Password Generator" style="height: 100vh;">
             <div class="card-img-overlay" style="text-align: center; line-height: 3; padding: 20px">
+                <!-- Title on password generator page -->
                 <h2 class="card-title, text-primary" style="text-align: center; color: white; padding: 20px;">Password Generator</h2>
+                <!-- Instructions for end user -->
                 <h4 style="text-align: center; color: white; padding: 20px;">Click Generate password - select length and character types.</h4>
 
                 <div>
+                    <!-- Header for new password -->
                     <h4 style="text-align: center; padding: 20px;">New Password</h4>
                 </div>
 
                 <div>
+                    <!-- Place holder for the generated password -->
                     <h4 style="text-align: center; color: white; padding: 20px; border: 3px solid red!important;" id=newpassplace></h4>
                     </br>
                 </div>
 
                 <div>
+                    <!-- Button to trigger password generation process -->
                     <button class="text-primary center-block" id="generate" onclick="genpwd()" style="text-align: center; color: white;"><h3>Generate!</h3></button>
                 </div>
 
@@ -41,8 +50,6 @@
         </div>
     </div>
     </br>
-    <script>
-    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
