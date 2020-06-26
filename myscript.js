@@ -6,7 +6,6 @@ function genpwd() {
     var lc = "abcdefghijklmnopqrstuvwxyz";
     var uc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var num = "0123456789";
-    // var sc = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
     var sc = "!@#$%^&*()_+~`|}{[]:;?,./-=";
     // define char set possibilities 
 
