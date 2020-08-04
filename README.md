@@ -6,6 +6,7 @@ The URL for the website - https://cermqm.github.io/pwdgen/
 Screen shots are located in the following google share... the screen shots show different resolutions, error alerts and prompts to gather needed user input.
 https://drive.google.com/drive/folders/1QKNM9Dd8pP2TOx1tSshBTrGNOyrWP1uZ?usp=sharing
 
+Technologies used: ● Bootstrap (CSS Library) ● Jquery (Javascript Function Shortcut) ● Font Awesome (Icon Library)
 
 
 # 03 JavaScript: Password Generator
@@ -41,18 +42,9 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
+Bootstrap license - https://getbootstrap.com/docs/4.0/about/license/#:~:text=It%20permits%20you%20to%3A,parties%20not%20included%20in%20the
 
-The following image demonstrates the application functionality:
+Font Awesome license - https://fontawesome.com/license/free
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
+jQuery license - https://jquery.org/license/
 
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
